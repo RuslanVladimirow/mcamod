@@ -203,7 +203,7 @@ function convert(img) {
 		pasted into MakeCode's JavaScript window.
 		*/
 		if (makeCodeString[`row-${y}`] === undefined) {
-			makeCodeString[`row-${y}`] = ""
+			makeCodeString[`row-${y}`] = "" 
 		} else {
 			if (nearest.index == 0 && a == 0) {
 				// 0 is transparent, f is black.
